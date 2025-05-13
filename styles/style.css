@@ -28,11 +28,14 @@ button {
 
 .donate-button {
   font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
-  color: var(--grey-dark);
+  color: #ffffff;
+  border-color: #c05326;
+  background-color: rgb(192, 38, 69);
+  border-radius: 3px;
   font-size: 1rem;
   position: absolute;
-  left: 99%;
-  top: 10px;
+  left: 88%;
+  top: 20px;
   
 
 
