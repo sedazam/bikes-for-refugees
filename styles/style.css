@@ -14,7 +14,7 @@
  }
 
 body {
-  margin: 0;
+  margin: 40px;
 }
 
 body,
@@ -28,16 +28,16 @@ button {
 
 .donate-button {
   font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
   color: #ffffff;
-  border-color: #c05326;
-  background-color: rgb(192, 38, 69);
-  table-layout: fixed;
-  border-radius: 3px;
+  border: none;
+  background-color: rgb(190, 67, 69);
+  border-radius: 4px;
   font-size: 1rem;
-  position: absolute;
   left: 88%;
   top: 20px;
-  
+  padding: 8px 16px;
+  text-decoration: none;
 
 
 }
@@ -58,7 +58,8 @@ p {
 .footer {
   padding: 0 1.5rem;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 20px;
+  margin-left: 20px;
 }
 
 /* Header */
@@ -122,6 +123,7 @@ p {
 .content {
   display: flex;
   flex-direction: column;
+ 
 }
 
 /* Alert */
