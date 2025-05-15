@@ -25,22 +25,6 @@ button {
   position: absolute;
 
 }
-
-.donate-button {
-  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
-  font-size: 16px;
-  color: #ffffff;
-  border: none;
-  background-color: rgb(190, 67, 69);
-  border-radius: 4px;
-  font-size: 1rem;
-  left: 88%;
-  top: 20px;
-  padding: 8px 16px;
-  text-decoration: none;
-
-
-}
   
 
 h1,h2,h3,h4,h5,h6 {
@@ -116,7 +100,21 @@ p {
 /* Buttons */
 
   /* INSERT BUTTON STYLES HERE */
-
+  
+.donate-button {
+  white-space: nowrap;
+  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1rem;
+  color: #ffffff;
+  border: none;
+  background-color: rgb(190, 67, 69);
+  border-radius: 4px;
+  padding: 8px 16px;
+  position: absolute;
+  left: 83%;
+  top: 20px;
+  text-decoration: none;
+}
 
 /* Content */
 
@@ -141,8 +139,10 @@ p {
 /* hero */
 
 .hero {
-  background-image: url("header-bike.jpg");
-  background-color: var(--grey-light);
+  background-image: url('header-bike.jpg');
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
 }
 
 .hero h1 {
